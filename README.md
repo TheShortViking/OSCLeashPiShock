@@ -20,4 +20,5 @@ If you want to change the port you can do so in the .json file. Remember to rest
 
 If being used with a leash, setup whatever leash you want with a PhysBone script. At the bottom you will have to add a parameter, I have used "Leash". The physbone script will then make a parameter called "Leash_Stretch" that can be used in the program.
 
-
+##
+Compiled to .exe using PyInstaller
