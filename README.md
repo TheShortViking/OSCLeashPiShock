@@ -1,7 +1,7 @@
 # OSCLeashPiShock
 This program will take a float value from VRChat using OSC to continually shock the user using a PiShock. The PiShock API can only do minimum of 1 second shocks, so it is what it is. There is also some delay in the API that I can't do anything with.
 
-Yes I know this script is a mess, I originally made it for a different use and ended up frankensteining it into this. It is my first python script that actually does something useful, so don't expect much if you decide to look through it.
+Yes I know this script is a mess, I originally made it for a different use and ended up frankensteining it into this. It is my first python script that actually does something useful, so don't expect beautiful code if you decide to look through it.
 
 ## How to use: 
 The program will make a .json file to save its data.
