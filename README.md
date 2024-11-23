@@ -18,7 +18,7 @@ Next time you open the program you only need to click "Set parameter" for it to 
 
 If you want to change the port you can do so in the .json file. Remember to restart the program after doing so.
 
-If being used with a leash, setup whatever leash you want with a PhysBone script. At the bottom you will have to add a parameter, I have used "Leash". The physbone script will then make a parameter called "Leash_Stretch" that can be used in the program.
+If being used with a leash, setup whatever leash you want with a PhysBone script. At the bottom under Options you will have to add a parameter, I have used "Leash". The physbone script will then make a parameter called "Leash_Stretch" that can be used in the program.
 
 ##
 Compiled to .exe using PyInstaller
