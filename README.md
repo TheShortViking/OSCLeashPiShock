@@ -5,6 +5,7 @@ Yes I know this script is a mess, I originally made it for a different use and e
 
 ## 2.0 is using MultiShock
 It can shock multiple shockers and has less delay than 1.0
+
 It has some different variables:
 - **Websocket:** The websocket used. Default value is "ws://localhost:8765" and should be correct. See MultiShocks website if you already use that port.
 - **AuthKey:** Set the same auth key here as in the settings tab in MultiShock.
