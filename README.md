@@ -9,7 +9,8 @@ It has some different variables:
 - **Websocket:** The websocket used. Default value is "ws://localhost:8765" and should be correct. See MultiShocks website if you already use that port.
 - **AuthKey:** Set the same auth key here as in the settings tab in MultiShock.
 - **Delay:** The delay in seconds between shocks. I have found that a value of 0.5 will feel like a continous shock.
-The rest shoulc be the same as for 1.0, so go read that too.
+
+The rest should be the same as for 1.0, so go read that too.
 
 ## How to use (1.0): 
 The program will make a .json file to save its data.
