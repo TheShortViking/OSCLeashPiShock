@@ -3,7 +3,15 @@ This program will take a float value from VRChat using OSC to continually shock 
 
 Yes I know this script is a mess, I originally made it for a different use and ended up frankensteining it into this. It is my first python script that actually does something useful, so don't expect beautiful code if you decide to look through it.
 
-## How to use: 
+## 2.0 is using MultiShock
+It can shock multiple shockers and has less delay than 1.0
+It has some different variables:
+- **Websocket:** The websocket used. Default value is "ws://localhost:8765" and should be correct. See MultiShocks website if you already use that port.
+- **AuthKey:** Set the same auth key here as in the settings tab in MultiShock.
+- **Delay:** The delay in seconds between shocks. I have found that a value of 0.5 will feel like a continous shock.
+The rest shoulc be the same as for 1.0, so go read that too.
+
+## How to use (1.0): 
 The program will make a .json file to save its data.
 Input everything and click each set button. Next time you open this will be saved.
 
