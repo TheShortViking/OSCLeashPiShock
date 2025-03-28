@@ -26,7 +26,7 @@ Input everything and click each set button. Next time you open this will be save
 When everything is set up, click "Set parameter" to start the program. 
 Next time you open the program you only need to click "Set parameter" for it to start working.
 
-If you want to change the port you can do so in the .json file. Remember to restart the program after doing so.
+If you want to change the port you can do so in the .json file. Remember to restart the program after doing so. It will crash on startup if another program is using the same port, default is 9001.
 
 If being used with a leash, setup whatever leash you want with a PhysBone script. Set max stretch to whatever you want, I like to have it around 0.5 - 1. If the stretch is too low it can be difficult to control and act more like a on/of interraction. At the bottom under Options you will have to add a parameter, I have used "Leash". The PhysBone script will then make a parameter called "Leash_Stretch" that can be used in the program.
 VRChat also adds some bits to the parameter which is "/avatar/parameters/" so you will then end up with the entire parameter that goes into the program which is "/avatar/parameters/Leash_Stretch"
