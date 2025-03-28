@@ -25,13 +25,13 @@ def saveVars():
         "DelayVarSaved" : DelayVar,
         "MaxShockSaved" : MaxShock,
         "paraSaved" : para,
+        "PortSaved" : Port
     }
     with open(SaveFile, 'w') as file:
         json.dump(data_to_save, file)
 
 if not os.path.exists(SaveFile):
     saveVars()
-
 else:
     with open(SaveFile, 'r') as file:
         loaded_data = json.load(file)
@@ -40,6 +40,8 @@ else:
     DelayVar = loaded_data["DelayVarSaved"]
     MaxShock = loaded_data["MaxShockSaved"]
     para = loaded_data["paraSaved"]
+    Port = loaded_data["PortSaved"]
+
 oldPara = "null"
 
 customtkinter.set_appearance_mode("System")
